@@ -1,0 +1,105 @@
+body{
+    font-family: "Crismon Text", "Times New Roman", Serif;
+    background-color: #f2fffc;
+    font-size: 120%; /* aumenta a fonte padrão do usuário em 20% */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+}
+h1,h2{
+    font-family: "Open Sans Condensed", "Arial", Serif;
+}
+.titulo-principal{
+    text-align: center;
+    background-color: #851944;
+    color: white;
+    padding: 25px;
+    border-bottom: 10px solid black; /* Uma borda de 10 pixels, sólida na cor preta */
+    font-size: 60px;
+    text-transform: uppercase; /* Para deixar todo o texto em maiusculo */
+}
+p{
+    text-align:justify; /* para justificar o texto */
+    margin: 20px 0; /* Margem Up e Down = 20px e Left e Right = 0 px*/
+}
+.navegacao-site{
+    text-align: center;
+    background-color: #3c1d3d;
+    color: #f2fffc;
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
+.rodape-pagina{
+    background-color: black;
+    color: #f2fffc;
+    clear: both; /* Esse componente pede para ignorar todo mundo que está fluando na página */
+    position: fixed; /* para o rodapé ficar fixo na página, sem o scroll influenciar ele */
+    bottom: 0; /* para ficar bem colado em baixo da página */
+    left: 0; /* para iniciar bem colado na esquerda */
+    width: 100%; /* para pegar a pagina toda */
+}
+main a{
+    color: #851944;
+}
+.navegacao-site a{
+    color: inherit; /* Comando "inherit": para herdar a propriedade colodo do navegacao-site */
+    font-family: "Open Sans Condensed", sans-serif;
+}
+.navegacao-site, .rodape-pagina{ /*coloca-se virgula para mexer em duas classes ao mesmo tempo */
+    padding: 20px;
+}
+.container{
+    width: 720px; /* Largura de 720px */
+    margin: auto;
+    padding: 30px 0;
+}
+.navegacao-site h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.subtitulo-texto{
+    font-size: 30px;
+    clear: both; /* para ignorar os que estão flutuando */
+}
+.icones-redes-sociais li{
+    display: inline-block;
+}
+strong{
+    font-weight: bold; /* para deixar a fonte em negrito */
+}
+em{
+    font-style: italic;
+}
+nav a{
+    text-transform: lowercase; /* Para deixar tudo minusculo, msm que esteja escrito em maiusculo. Pensar na acessibilidade. */
+}
+.icones-redes-sociais a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -9999px; /* empura o texto para a direita até ele sumir da tela, conforme se aumenta o pixel colocado. Se o valor for negativo vai para a esquerda. Tudo isso pensado na questão de acessibilidade. */
+}
+.github{
+    background-image: url(../imagens/github.png); /* ../ para sair da pasta e depois entrarna pasta "imagens" que está no mesmo diretório que "estilos" */
+}
+.twitter{
+    background-image: url(../imagens/twitter.png);
+}
+.linkedin{
+    background-image: url(../imagens/linkedin.png);
+}
+main{
+    float: left; /* Fará a tag <main> flutuar a esquerda. */
+    width: 85%; /* Agora tudo que é relacionado a tag main vai ocupar 85% da tela */
+    padding-bottom: 80px; /* 80 pixels apenas no rodapé da página abrindo um espaço entre main e o restante em baixo */
+}
+.minha-foto, .navegacao-site{
+    float: right;
+    box-sizing: border-box; /* define que ele vai considerara borda dos componentes na hora de fazer o cálculo */
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+.minha-foto{
+    position: absolute; /* para travar la em cima da tela */
+    top: 0;
+    right: 0;
+}

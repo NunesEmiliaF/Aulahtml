@@ -1,0 +1,35 @@
+.container img{
+    width: 100%;
+}
+.figura-bmw{
+    border: 10px solid black;
+    width: 48%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px 10px;
+    float: left;
+}
+.figura-uol{
+    border: 10px solid black;
+    width: 48%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px;
+    float: right;
+}
+ .figura-ibm{
+    border: 10px solid black;
+    width: 48%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 10px;
+    float: left;
+ }
+ .figura-g1{
+    border: 10px solid black;
+    width: 48%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 10px;
+    float: right;
+ }

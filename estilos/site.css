@@ -1,5 +1,5 @@
 body{
-    font-family: "Crismon Text", "Times New Roman", Serif;
+    font-family: "Crimson Text", "Times New Roman", Serif;
     background-color: #f2fffc;
     font-size: 120%; /* aumenta a fonte padrão do usuário em 20% */
     line-height: 1.5; /* Espaçamento entre as linhas */
@@ -76,7 +76,7 @@ nav a{
     width: 40px;
     height: 40px;
     display: block;
-    text-indent: -9999px; /* empura o texto para a direita até ele sumir da tela, conforme se aumenta o pixel colocado. Se o valor for negativo vai para a esquerda. Tudo isso pensado na questão de acessibilidade. */
+    text-indent: -9999px; /* empurra o texto para a direita até ele sumir da tela, conforme se aumenta o pixel colocado. Se o valor for negativo vai para a esquerda. Tudo isso pensado na questão de acessibilidade. */
 }
 .github{
     background-image: url(../imagens/github.png); /* ../ para sair da pasta e depois entrarna pasta "imagens" que está no mesmo diretório que "estilos" */
